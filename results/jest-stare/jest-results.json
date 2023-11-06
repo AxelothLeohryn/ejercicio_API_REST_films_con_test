@@ -1,0 +1,334 @@
+{
+  "numFailedTestSuites": 2,
+  "numFailedTests": 7,
+  "numPassedTestSuites": 1,
+  "numPassedTests": 2,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 3,
+  "numTotalTests": 9,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1699296585892,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 5,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1699296586662,
+        "runtime": 694,
+        "slow": false,
+        "start": 1699296585968
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\test\\films.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 124,
+          "failureDetails": [
+            {
+              "code": "EADDRINUSE",
+              "errno": -4091,
+              "syscall": "listen",
+              "address": "::",
+              "port": 3000
+            },
+            {
+              "code": "ERR_HTTP_HEADERS_SENT"
+            },
+            {
+              "matcherResult": {
+                "expected": "Inception",
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Inception\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1872:16)\n    at listenInCluster (node:net:1920:12)\n    at Server.listen (node:net:2008:7)\n    at Function.listen (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.listen (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\app.js:17:5)\n    at Runtime._execModule (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runtime\\build\\index.js:1439:24)\n    at Runtime._loadModule (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runtime\\build\\index.js:1022:12)\n    at Runtime.requireModule (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runtime\\build\\index.js:882:12)\n    at Runtime.requireModuleOrMock (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runtime\\build\\index.js:1048:21)\n    at Object.require (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\test\\films.test.js:2:13)\n    at Runtime._execModule (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runtime\\build\\index.js:1439:24)\n    at Runtime._loadModule (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runtime\\build\\index.js:1022:12)\n    at Runtime.requireModule (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runtime\\build\\index.js:882:12)\n    at jestAdapter (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:77:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at runTestInternal (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runner\\build\\runTest.js:444:34)",
+            "Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:406:5)\n    at ServerResponse.setHeader (node:_http_outgoing:652:11)\n    at ServerResponse.header (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\express\\lib\\response.js:278:15)\n    at json (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\routes\\films.js:12:21)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Inception\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.toBe (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\test\\films.test.js:10:33)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+          ],
+          "fullName": "Films API routes should fetch a movie by title",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should fetch a movie by title"
+        },
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 22,
+          "failureDetails": [
+            {
+              "code": "ERR_HTTP_HEADERS_SENT"
+            },
+            {
+              "matcherResult": {
+                "actual": 200,
+                "expected": 404,
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m404\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:406:5)\n    at ServerResponse.setHeader (node:_http_outgoing:652:11)\n    at ServerResponse.header (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\express\\lib\\response.js:278:15)\n    at json (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\routes\\films.js:12:21)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m404\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at Object.toBe (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\test\\films.test.js:16:33)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+          ],
+          "fullName": "Films API routes should return 404 for a non-existent movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should return 404 for a non-existent movie"
+        },
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 11,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "expected": "Se ha guardado Test Movie",
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Se ha guardado Test Movie\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Se ha guardado Test Movie\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.toBe (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\test\\films.test.js:29:35)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+          ],
+          "fullName": "Films API routes should add a new movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should add a new movie"
+        },
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 3,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "expected": "Se ha actualizado Updated Test Movie",
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Se ha actualizado Updated Test Movie\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Se ha actualizado Updated Test Movie\"\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.toBe (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\test\\films.test.js:42:35)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+          ],
+          "fullName": "Films API routes should update an existing movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should update an existing movie"
+        },
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 5,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "actual": "La pelicula con ID: undefined ha sido eliminada",
+                "expected": "Se ha borrado la película con ID: 123",
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mSe ha borrado l\u001b[27ma pel\u001b[7mí\u001b[27mcula con ID: \u001b[7m123\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mL\u001b[27ma pel\u001b[7mi\u001b[27mcula con ID: \u001b[7mundefined ha sido eliminada\u001b[27m\"\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mSe ha borrado l\u001b[27ma pel\u001b[7mí\u001b[27mcula con ID: \u001b[7m123\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mL\u001b[27ma pel\u001b[7mi\u001b[27mcula con ID: \u001b[7mundefined ha sido eliminada\u001b[27m\"\u001b[39m\n    at Object.toBe (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\test\\films.test.js:51:35)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+          ],
+          "fullName": "Films API routes should delete an existing movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should delete an existing movie"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFilms API routes › should fetch a movie by title\u001b[39m\u001b[22m\n\n    listen EADDRINUSE: address already in use :::3000\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 16 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 17 |\u001b[39m app\u001b[33m.\u001b[39mlisten(port\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 18 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`App listening on http://localhost:${port}`\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 19 |\u001b[39m })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 20 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Function.listen (\u001b[22m\u001b[2mnode_modules/express/lib/application.js\u001b[2m:635:24)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.listen (\u001b[22m\u001b[2mapp.js\u001b[2m:17:5)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.require (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/films.test.js\u001b[39m\u001b[0m\u001b[2m:2:13)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFilms API routes › should fetch a movie by title\u001b[39m\u001b[22m\n\n    Cannot set headers after they are sent to the client\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 10 |\u001b[39m   } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 11 |\u001b[39m     console\u001b[33m.\u001b[39mlog(error)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 12 |\u001b[39m     res\u001b[33m.\u001b[39mstatus(\u001b[35m400\u001b[39m)\u001b[33m.\u001b[39mjson(error)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 13 |\u001b[39m   }\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 14 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 15 |\u001b[39m router\u001b[33m.\u001b[39mpost(\u001b[32m\"/\"\u001b[39m\u001b[33m,\u001b[39m (req\u001b[33m,\u001b[39m res) \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat ServerResponse.header (\u001b[22m\u001b[2mnode_modules/express/lib/response.js\u001b[2m:794:10)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat ServerResponse.send (\u001b[22m\u001b[2mnode_modules/express/lib/response.js\u001b[2m:174:12)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat ServerResponse.json (\u001b[22m\u001b[2mnode_modules/express/lib/response.js\u001b[2m:278:15)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat json (\u001b[22m\u001b[2mroutes/films.js\u001b[2m:12:21)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFilms API routes › should fetch a movie by title\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"Inception\"\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request(app)\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m`/api/film/${title}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  9 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatusCode)\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected status code 200 when fetching movie '${title}', but got ${response.statusCode}.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 10 |\u001b[39m     expect(response\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39mtitle)\u001b[33m.\u001b[39mtoBe(title\u001b[33m,\u001b[39m \u001b[32m`Expected movie title to be '${title}', but got '${response.body.title}'.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 11 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 12 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 13 |\u001b[39m   it(\u001b[32m'should return 404 for a non-existent movie'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/films.test.js\u001b[39m\u001b[0m\u001b[2m:10:33)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFilms API routes › should return 404 for a non-existent movie\u001b[39m\u001b[22m\n\n    Cannot set headers after they are sent to the client\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 10 |\u001b[39m   } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 11 |\u001b[39m     console\u001b[33m.\u001b[39mlog(error)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 12 |\u001b[39m     res\u001b[33m.\u001b[39mstatus(\u001b[35m400\u001b[39m)\u001b[33m.\u001b[39mjson(error)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 13 |\u001b[39m   }\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 14 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 15 |\u001b[39m router\u001b[33m.\u001b[39mpost(\u001b[32m\"/\"\u001b[39m\u001b[33m,\u001b[39m (req\u001b[33m,\u001b[39m res) \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat ServerResponse.header (\u001b[22m\u001b[2mnode_modules/express/lib/response.js\u001b[2m:794:10)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat ServerResponse.send (\u001b[22m\u001b[2mnode_modules/express/lib/response.js\u001b[2m:174:12)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat ServerResponse.json (\u001b[22m\u001b[2mnode_modules/express/lib/response.js\u001b[2m:278:15)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat json (\u001b[22m\u001b[2mroutes/films.js\u001b[2m:12:21)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFilms API routes › should return 404 for a non-existent movie\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m404\u001b[39m\n    Received: \u001b[31m200\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 14 |\u001b[39m     \u001b[36mconst\u001b[39m title \u001b[33m=\u001b[39m \u001b[32m'NonExistentMovie12345'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 15 |\u001b[39m     \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request(app)\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m`/api/film/${title}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 16 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatusCode)\u001b[33m.\u001b[39mtoBe(\u001b[35m404\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected status code 404 for a non-existent movie '${title}', but got ${response.statusCode}.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 17 |\u001b[39m     expect(response\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39mmessage)\u001b[33m.\u001b[39mtoBe(\u001b[32m'Film not found'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected error message 'Film not found', but got '${response.body.message}'.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 18 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 19 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/films.test.js\u001b[39m\u001b[0m\u001b[2m:16:33)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFilms API routes › should add a new movie\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"Se ha guardado Test Movie\"\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 27 |\u001b[39m     \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request(app)\u001b[33m.\u001b[39mpost(\u001b[32m'/api/film/'\u001b[39m)\u001b[33m.\u001b[39msend(movie)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 28 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatusCode)\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected status code 200 when adding a new movie, but got ${response.statusCode}.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 29 |\u001b[39m     expect(response\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39mmessage)\u001b[33m.\u001b[39mtoBe(\u001b[32m`Se ha guardado ${movie.title}`\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected confirmation message for adding movie '${movie.title}', but got a different message.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 30 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 31 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 32 |\u001b[39m   it(\u001b[32m'should update an existing movie'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/films.test.js\u001b[39m\u001b[0m\u001b[2m:29:35)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFilms API routes › should update an existing movie\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"Se ha actualizado Updated Test Movie\"\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 40 |\u001b[39m     \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request(app)\u001b[33m.\u001b[39mput(\u001b[32m'/api/film/'\u001b[39m)\u001b[33m.\u001b[39msend(updatedMovie)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 41 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatusCode)\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected status code 200 when updating a movie, but got ${response.statusCode}.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 42 |\u001b[39m     expect(response\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39mmessage)\u001b[33m.\u001b[39mtoBe(\u001b[32m`Se ha actualizado ${updatedMovie.title}`\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected confirmation message for updating movie '${updatedMovie.title}', but got a different message.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 43 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 44 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 45 |\u001b[39m   it(\u001b[32m'should delete an existing movie'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/films.test.js\u001b[39m\u001b[0m\u001b[2m:42:35)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mFilms API routes › should delete an existing movie\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"\u001b[7mSe ha borrado l\u001b[27ma pel\u001b[7mí\u001b[27mcula con ID: \u001b[7m123\u001b[27m\"\u001b[39m\n    Received: \u001b[31m\"\u001b[7mL\u001b[27ma pel\u001b[7mi\u001b[27mcula con ID: \u001b[7mundefined ha sido eliminada\u001b[27m\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 49 |\u001b[39m     \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request(app)\u001b[33m.\u001b[39m\u001b[36mdelete\u001b[39m(\u001b[32m'/api/film/'\u001b[39m)\u001b[33m.\u001b[39msend(movie)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 50 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatusCode)\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected status code 200 when deleting a movie, but got ${response.statusCode}.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 51 |\u001b[39m     expect(response\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39mmessage)\u001b[33m.\u001b[39mtoBe(\u001b[32m`Se ha borrado la película con ID: ${movie.id}`\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`Expected confirmation message for deleting movie with ID '${movie.id}', but got a different message.`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 52 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 53 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 54 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/films.test.js\u001b[39m\u001b[0m\u001b[2m:51:35)\u001b[22m\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 2,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1699296586818,
+        "runtime": 112,
+        "slow": false,
+        "start": 1699296586706
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\test\\fetchFilms.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "fetchFilm utility"
+          ],
+          "duration": 1,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "TypeError: fetchFilm is not a function\n    at Object.fetchFilm (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\test\\fetchFilms.test.js:5:24)\n    at Promise.then.completed (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\utils.js:231:10)\n    at _callCircusTest (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:316:40)\n    at _runTest (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:252:3)\n    at _runTestsForDescribeBlock (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:126:9)\n    at _runTestsForDescribeBlock (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:121:9)\n    at run (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:71:3)\n    at runAndTransformResultsToJestFormat (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n    at jestAdapter (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n    at runTestInternal (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runner\\build\\runTest.js:444:34)"
+          ],
+          "fullName": "fetchFilm utility should return movie details for a known movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should return movie details for a known movie"
+        },
+        {
+          "ancestorTitles": [
+            "fetchFilm utility"
+          ],
+          "duration": 0,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "TypeError: fetchFilm is not a function\n    at Object.fetchFilm (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\test\\fetchFilms.test.js:17:24)\n    at Promise.then.completed (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\utils.js:231:10)\n    at _callCircusTest (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:316:40)\n    at _runTest (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:252:3)\n    at _runTestsForDescribeBlock (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:126:9)\n    at _runTestsForDescribeBlock (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:121:9)\n    at run (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\run.js:71:3)\n    at runAndTransformResultsToJestFormat (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n    at jestAdapter (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n    at runTestInternal (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\node_modules\\jest-runner\\build\\runTest.js:444:34)"
+          ],
+          "fullName": "fetchFilm utility should return null for a non-existent movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should return null for a non-existent movie"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mfetchFilm utility › should return movie details for a known movie\u001b[39m\u001b[22m\n\n    TypeError: fetchFilm is not a function\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 3 |\u001b[39m describe(\u001b[32m'fetchFilm utility'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 4 |\u001b[39m   it(\u001b[32m'should return movie details for a known movie'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 5 |\u001b[39m     \u001b[36mconst\u001b[39m data \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m fetchFilm(\u001b[32m'Inception'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m   |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 6 |\u001b[39m     expect(data)\u001b[33m.\u001b[39mtoBeDefined()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 7 |\u001b[39m     \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mdata) {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 8 |\u001b[39m       console\u001b[33m.\u001b[39merror(\u001b[32m\"Expected movie details for 'Inception', but got nothing.\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.fetchFilm (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/fetchFilms.test.js\u001b[39m\u001b[0m\u001b[2m:5:24)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mfetchFilm utility › should return null for a non-existent movie\u001b[39m\u001b[22m\n\n    TypeError: fetchFilm is not a function\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 16 |\u001b[39m   it(\u001b[32m'should return null for a non-existent movie'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 17 |\u001b[39m     \u001b[36mconst\u001b[39m data \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m fetchFilm(\u001b[32m'NonExistentMovie12345'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 18 |\u001b[39m     expect(data)\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 19 |\u001b[39m     \u001b[36mif\u001b[39m (data) {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 20 |\u001b[39m       console\u001b[33m.\u001b[39merror(\u001b[32m\"Expected no movie details for 'NonExistentMovie12345', but got some data.\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.fetchFilm (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/fetchFilms.test.js\u001b[39m\u001b[0m\u001b[2m:17:24)\u001b[22m\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1699296586947,
+        "runtime": 98,
+        "slow": false,
+        "start": 1699296586849
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\aleja_vuvrer7\\Escritorio\\Ejercicios\\ejercicio_API_REST_films_con_test\\test\\env.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Environment setup"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Environment setup should have a .env file in the root directory",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should have a .env file in the root directory"
+        },
+        {
+          "ancestorTitles": [
+            "Environment setup"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Environment setup should have API_KEY defined in the .env file",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should have API_KEY defined in the .env file"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false
+}
